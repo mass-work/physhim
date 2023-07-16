@@ -3,10 +3,10 @@ import { Unity, useUnityContext } from "react-unity-webgl";
 
 function App() {
   const { unityProvider } = useUnityContext({
-    loaderUrl: "/UnityBuild/build.loader.js",
-    dataUrl: "/UnityBuild/build.data",
-    frameworkUrl: "/UnityBuild/build.framework.js",
-    codeUrl: "/UnityBuild/build.wasm",
+    loaderUrl: "physhim/UnityBuild/build.loader.js",
+    dataUrl: "physhim/UnityBuild/build.data",
+    frameworkUrl: "physhim/UnityBuild/build.framework.js",
+    codeUrl: "physhim/UnityBuild/build.wasm",
   });
 
   return (
